@@ -1,0 +1,14 @@
+Source: edu-childhood-desktop-theme
+Section: gnome
+Priority: extra
+Maintainer: Jose Antonio Chavarría <jachavar@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: https://github.com/vitalinux-edu/edu-childhood-desktop-theme
+
+Package: edu-childhood-desktop-theme
+Architecture: all
+Pre-Depends: gnome-icon-theme-gartoon-redux
+Depends: ${misc:Depends}
+Description: Vitalinux Edu Childhood desktop themes for gnome and unity desktops
+ Variation of Ubuntu Radiance theme
